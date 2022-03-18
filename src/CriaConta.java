@@ -1,4 +1,5 @@
 public class CriaConta {
+
     public static void main(String[] args) {
         Conta primeiraConta = new Conta();
         primeiraConta.saldo = 200;
@@ -10,11 +11,10 @@ public class CriaConta {
         Conta segundaConta = new Conta();
         segundaConta.saldo = 50;
 
-        System.out.println("Na Primeira conta tem " + primeiraConta.saldo);
-        System.out.println("Na segunda conta tem " + segundaConta.saldo);
+        System.out.println("primeira conta tem " + primeiraConta.saldo);
+        System.out.println("segunda conta tem " + segundaConta.saldo);
 
-        System.out.println(primeiraConta.agencia);
-        System.out.println(primeiraConta.numero);
-        System.out.println(primeiraConta.titular);
+        System.out.println("referenciar: " + primeiraConta);
     }
+
 }
